@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import Header from './Components/Header';
 import Form from './Components/Form'
 import Login from './Components/Login';
 import Section from './Components/Section';
-import { Switch } from '@material-ui/core';
-import SwitchBase from '@material-ui/core/internal/SwitchBase';
-import { Route, Router } from 'react-router';
 import Home from './Components/Home';
+import View from './Components/MyProfile/View';
+import { Edit } from './Components/MyProfile/Edit';
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+
 
 
 const App = () => {
@@ -17,13 +17,13 @@ const App = () => {
         <Switch>
           <Route exact path ="/register" component={Form} />
           <Route exact path ="/login" component={Login} />
-          <Route exact path ="/Home" component={Home} />          
+          <Route exact path ="/" component={Home} />      
+          <Route exact path ="/profile/view" component={View} />
+          <Route exact path ="/profile/edit" component={Edit} />  
         </Switch>
       </Router>
       
 
-      <Header />
-      <Section />
     </div>
   )
 }

@@ -1,0 +1,11 @@
+.leftbar-section {
+    width: 30vw;
+    height: 50vh;
+    background-color: aqua;
+       
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}

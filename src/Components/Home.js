@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from './Header'
+import LeftBar from './MyProfile/LeftBar'
+import './Home.css'
+import View from './MyProfile/View'
+import Profile from './MyProfile/Profile'
 
 const Home = () => {
     return (
         <div>
-            <h1>i am changed</h1>
+            <Header headerText='Profile Home' />
+
+           <Profile />
         </div>
     )
 }
