@@ -1,3 +1,4 @@
+import './App.css'
 import Header from './Components/Header';
 import Form from './Components/Form'
 import Login from './Components/Login';

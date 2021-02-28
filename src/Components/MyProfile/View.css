@@ -1,0 +1,71 @@
+input{
+    border: none;
+}
+
+.name-headers > input {
+    color: rgb(10, 10, 78);
+}
+
+.resume-main{
+
+    padding: 16px;
+}
+
+.resume-header-background{
+    background-color: chocolate;
+    border-radius: 6px;
+}
+
+.header-resume{
+    border-radius: 10px;
+    background-color: rgb(10, 10, 78);
+    height: 20vh;
+    display: inline-table;
+}
+
+.header-super{
+    padding: 6px;
+    display: flex;
+}
+
+.header-sub{
+    text-align: center;
+}
+
+.obj-sub{padding-left: 20px;}
+
+.designition-margin{margin-top: 0px;
+    color: rgb(249, 249, 250);}
+.name-margin{
+    margin-bottom: 0px;
+    color: rgb(249, 249, 250);
+}
+
+.MuiBox-root-8 {
+    padding: 0px !important;
+}
+
+#vertical-tabpanel-0{
+    width: 100%;
+}
+
+.body-heading > h2 {
+    color: rgb(10, 10, 78);   
+    margin-bottom: auto;
+    padding-top: 20px;
+}
+
+.obj-heading > h1 {
+    color: rgb(6, 6, 48);
+    margin-top: 5px;
+}
+
+.obj-text > p {
+    color: rgb(6, 6, 48);
+    margin-top: -16px;
+}
+
+.projects-contain{
+    padding-top: 20px;
+    display: flex;
+}

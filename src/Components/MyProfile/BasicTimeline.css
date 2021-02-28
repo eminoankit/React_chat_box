@@ -1,0 +1,21 @@
+.MuiTimelineItem-missingOppositeContent:before {
+    flex: none !important;
+    content: "";
+    padding: 0px !important;
+}
+
+.MuiTimeline-root {
+    padding: 6px 8px  !important;
+}
+
+.MuiTimelineDot-defaultGrey {
+    color: rgb(6, 6, 48) !important;
+    border-color: transparent;
+    background-color: #ED5225  !important;
+}
+
+.MuiTimelineConnector-root {
+    width: 2px;
+    flex-grow: 1;
+    background-color: rgb(136, 136, 218) ;
+}

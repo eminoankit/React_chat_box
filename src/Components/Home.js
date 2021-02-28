@@ -8,7 +8,7 @@ import Profile from './MyProfile/Profile'
 const Home = () => {
     return (
         <div>
-            <Header headerText='Profile Home' />
+            <Header headerText='Resume Profile' />
 
            <Profile />
         </div>

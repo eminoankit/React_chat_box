@@ -1,0 +1,13 @@
+.project-main{
+    border: 2px solid rgb(10, 10, 78);
+    width: 20vw;
+    margin:10px;
+}
+
+.proj-container{
+    padding: 0px 16px;
+}
+
+.project-header > h4 {
+    color: rgb(10, 10, 78);
+}
